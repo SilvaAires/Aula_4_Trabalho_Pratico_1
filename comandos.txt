@@ -55,9 +55,10 @@ Instrução 14: $ git status
 Instrução 15: $ git merge desenvolvimento -m "Merge com a branch des"
 	      $ git log --graph --oneline --all
 	      $ git commit -am "Commit final"
-$ git status
-$ git remote add origin https://github.com/SilvaAires/Aula_4_Trabalho_Pratico_1.git
-$ git push origin master
-$ git push origin desenvolvimento
-$ git push origin revisao
-$ git commit -am "Commit com ligação ao github"
+              
+Instrução 16: $ git status
+              $ git remote add origin https://github.com/SilvaAires/Aula_4_Trabalho_Pratico_1.git
+              $ git push origin master
+              $ git push origin desenvolvimento
+              $ git push origin revisao
+              $ git commit -am "Commit com ligação ao github"
