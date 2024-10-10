@@ -1,0 +1,63 @@
+Instrução 1: $ git config --global user.name Thiago
+	     $ git config --global user.email Thiago@gmail.com
+
+Instrução 2: $ mkdir AtividadeGit
+             $ cd AtividadeGit/
+             $ touch comandos.txt
+	     $ ls -l
+
+Instrução 3: $ git init 
+
+Instrução 4: $ touch introducao.txt desenvolvimento.txt conclusao.txt
+
+Instrução 5: $ git status
+	     $ git add .
+	     $ git commit -am "Iniciando repositorio com 4 arq" 
+
+Instrução 6: $ git branch 
+	     $ git branch desenvolvimento
+	     $ git branch revisao
+	     $ git branch 
+
+Instrução 7: $ git checkout desenvolvimento
+	     $ git branch 
+	     $ git status
+
+Instrução 8: $ git commit -am "Branch Des Mod nos arq" 
+	     $ git status
+
+Instrução 9: $ git checkout desenvolvimento
+	     $ git branch 
+
+Instrução 10: $ git status
+	      $ git commit -am "Branch rev Mod nos arq" 
+	      $ git status
+
+Instrução 11: $ git checkout desenvolvimento
+	      $ git branch 
+	      $ git status
+	      $ git merge revisao -m "mesclando com a revisao"
+
+Instrução 13: $ git status
+	      $ git commit -am "Resolvendo merge"
+
+Instrução 14: $ git status
+	      $ git log
+              $ git log --oneline
+	      $ git status
+	      $ git checkout master
+	      $ git branch
+	      $ git status
+	      $ git log --graph --oneline --all
+	      $ git add .
+	      $ git commit -am "Commit dos prints"
+
+Instrução 15: $ git merge desenvolvimento -m "Merge com a branch des"
+	      $ git log --graph --oneline --all
+	      $ git commit -am "Commit final"
+$ git status
+$ git remote add origin https://github.com/SilvaAires/Aula_4_Trabalho_Pratico_1.git
+$ git push origin master
+$ git push origin desenvolvimento
+$ git push origin revisao
+$ git commit -am "Commit com ligação ao github"
